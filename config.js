@@ -65,9 +65,9 @@ CKEDITOR.editorConfig = function( config ) {
 		'templates,' +
 		'toolbar,' +
 		'undo,' +
-		'wysiwygarea,'+
-	    'lms';
-	// %REMOVE_END%
+		'wysiwygarea';
+    // %REMOVE_END%
+    config.extraPlugins = "lms";
 };
 
 // %LEAVE_UNMINIFIED% %REMOVE_LINE%
